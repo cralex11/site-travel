@@ -71,6 +71,16 @@ html {
       padding: 3rem;
       justify-content: space-between;
       align-items: center;
+      position: relative;
+      &:after{
+        content: "";
+        width: 94%;
+        height: .5px;
+        background-color: rgba(255, 255, 255, 0.29);
+        position: absolute;
+        bottom: 30px;
+
+      }
 
       .search {
         font-size: 1.3rem;
