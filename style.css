@@ -145,6 +145,34 @@ a:hover {
   color: var(--text-secondary);
 }
 
+button {
+  background: none;
+  text-decoration: none;
+  border: 0;
+  padding: 0;
+}
+
+.btn {
+  background: #297CBB;
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  color: #fff;
+}
+
 /*-----------FIND OUT-----------*/
+.find-out {
+  background-color: #F0F6F9;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+  align-items: center;
+}
+
+.btn-find-out {
+  margin-left: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */
