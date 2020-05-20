@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Asia</title>
 </head>
@@ -21,7 +22,7 @@
             <nav class="nav-main">
                 <div class="search">
                     <label for="search">
-                        <ion-icon name="search-outline"></ion-icon>
+                        <ion-icon name="search-outline" id="search-icon"></ion-icon>
                     </label>
                     <input type="text" placeholder="Search Lonely Planet" id="search">
                 </div>
@@ -30,7 +31,9 @@
                         <ion-icon name="earth-outline"></ion-icon>
                     </a>
                 </div>
-                <a href="#" class="hamburger"><span></span></a>
+                <a href="#" class="hamburger">
+                    <span></span>
+                </a>
                 <ul id="nav-list">
                     <li><a href="#">Video</a></li>
                     <li><a href="#">Destinations</a></li>
@@ -43,9 +46,9 @@
                 <h1>Best In Travel 2020</h1>
                 <p>The best destinations, journeys sand sustainable travel experience for the year ahead</p>
             </div>
-            <a href="#">
+            <button href="#" id="myBtn" onclick="myFunction()">
                 <ion-icon name="play-circle-outline"></ion-icon>
-            </a>
+            </button>
         </div>
     </div>
 </header>
@@ -218,6 +221,7 @@
     </div>
 </footer>
 
+<script src="script.js"></script>
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 </html>
