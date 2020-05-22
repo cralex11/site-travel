@@ -396,14 +396,15 @@ footer .container .column:last-of-type button {
     position: absolute;
     display: none;
   }
-  header .hamburger {
+  header .video-bg .container .nav-main .hamburger {
+    z-index: 100;
     position: relative;
     display: flex;
     justify-content: flex-end;
   }
-  header .hamburger span,
-header .hamburger span:before,
-header .hamburger span:after {
+  header .video-bg .container .nav-main .hamburger span,
+header .video-bg .container .nav-main .hamburger span:before,
+header .video-bg .container .nav-main .hamburger span:after {
     position: absolute;
     top: 50%;
     margin-top: -1px;
@@ -414,15 +415,15 @@ header .hamburger span:after {
     width: 24px;
     height: 2px;
   }
-  header .hamburger span:before,
-header .hamburger span:after {
+  header .video-bg .container .nav-main .hamburger span:before,
+header .video-bg .container .nav-main .hamburger span:after {
     content: "";
     transition: transform 0.4s;
   }
-  header .hamburger span:before {
+  header .video-bg .container .nav-main .hamburger span:before {
     transform: translate(0, -8px);
   }
-  header .hamburger span:after {
+  header .video-bg .container .nav-main .hamburger span:after {
     transform: translate(0, 8px);
   }
   header #nav-list {
